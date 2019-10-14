@@ -17,7 +17,7 @@
 <body>
 
  <?php
- $query = mysqli_query($connection, "SELECT * FROM $bdarticles");
+ $query = mysqli_query($connection, "SELECT * FROM $bdtable");
  $numrows = mysqli_num_rows($query);
   $i = 0;
     while ($row = mysqli_fetch_assoc($query)) {
